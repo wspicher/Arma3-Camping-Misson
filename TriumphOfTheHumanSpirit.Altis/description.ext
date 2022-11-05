@@ -1,0 +1,42 @@
+author = "Andrew Spicher";
+
+//Class that controls music soundtracks
+class CfgMusic
+{
+	tracks[] = {Legion};
+	class none
+	{
+		name	= "Legion song";
+		sound[]	= { "\sounds\legion.ogg", db+5, 1.0 };
+	}
+}
+
+//Class that controls sound effects
+class CfgSounds
+{
+  sounds[]={zipper, zipper2, geiger};
+
+  class zipper
+    {
+      name = "zipper";
+      sound[] = {"\sounds\zipper.ogg", db+5, 1.0};
+    }
+
+  class zipper2
+    {
+      name = "zipper2";
+      sound[] = {"\sounds\zipper2.ogg", db+5, 1.0};
+    }
+
+  class geiger
+  {
+    name = "geiger";
+    sound[] = {"\sounds\geiger.ogg", db+5, 1.0};
+  }
+
+  class legion
+	{
+		name	= "Legion song";
+		sound[]	= { "\sounds\legion.ogg", db+2, 1.0 };
+	}
+}
